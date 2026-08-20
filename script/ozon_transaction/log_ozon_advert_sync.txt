@@ -1,0 +1,368 @@
+2026-08-18 05:37:21 [INFO] ============================================================
+2026-08-18 05:37:21 [INFO] Ozon Advert sync: 2026-08-15 → 2026-08-18
+2026-08-18 05:37:21 [INFO] Кабинетов: 4
+2026-08-18 05:37:21 [INFO] ============================================================
+2026-08-18 05:37:21 [INFO] Загружено cookies: 13 штук
+2026-08-18 05:37:21 [INFO] PostgreSQL: подключение успешно
+2026-08-18 05:37:21 [INFO] Дней для загрузки: 4
+2026-08-18 05:37:21 [INFO] 
+--- семейные_ценности (company_id=4127310) ---
+2026-08-18 05:37:21 [INFO]   [семейные_ценности] Запрашиваю 2026-08-15 → 2026-08-15 (попытка 1/3)
+2026-08-18 05:37:21 [ERROR]   Ответ: 403 — cookies протухли
+2026-08-18 05:37:21 [INFO]   [семейные_ценности] Запрашиваю 2026-08-16 → 2026-08-16 (попытка 1/3)
+2026-08-18 05:37:21 [ERROR]   Ответ: 403 — cookies протухли
+2026-08-18 05:37:21 [INFO]   [семейные_ценности] Запрашиваю 2026-08-17 → 2026-08-17 (попытка 1/3)
+2026-08-18 05:37:21 [ERROR]   Ответ: 403 — cookies протухли
+2026-08-18 05:37:21 [INFO]   [семейные_ценности] Запрашиваю 2026-08-18 → 2026-08-18 (попытка 1/3)
+2026-08-18 05:37:22 [ERROR]   Ответ: 403 — cookies протухли
+2026-08-18 05:37:24 [INFO] 
+--- платформа_продаж (company_id=4394450) ---
+2026-08-18 05:37:24 [INFO]   [платформа_продаж] Запрашиваю 2026-08-15 → 2026-08-15 (попытка 1/3)
+2026-08-18 05:37:24 [ERROR]   Ответ: 403 — cookies протухли
+2026-08-18 05:37:24 [INFO]   [платформа_продаж] Запрашиваю 2026-08-16 → 2026-08-16 (попытка 1/3)
+2026-08-18 05:37:24 [ERROR]   Ответ: 403 — cookies протухли
+2026-08-18 05:37:24 [INFO]   [платформа_продаж] Запрашиваю 2026-08-17 → 2026-08-17 (попытка 1/3)
+2026-08-18 05:37:24 [ERROR]   Ответ: 403 — cookies протухли
+2026-08-18 05:37:24 [INFO]   [платформа_продаж] Запрашиваю 2026-08-18 → 2026-08-18 (попытка 1/3)
+2026-08-18 05:37:24 [ERROR]   Ответ: 403 — cookies протухли
+2026-08-18 05:40:02 [INFO] ============================================================
+2026-08-18 05:40:02 [INFO] Ozon Advert sync: 2026-08-15 → 2026-08-18
+2026-08-18 05:40:02 [INFO] Кабинетов: 4
+2026-08-18 05:40:02 [INFO] ============================================================
+2026-08-18 05:40:02 [INFO] Загружено cookies: 15 штук
+2026-08-18 05:40:02 [INFO] PostgreSQL: подключение успешно
+2026-08-18 05:40:02 [INFO] Дней для загрузки: 4
+2026-08-18 05:40:02 [INFO] 
+--- семейные_ценности (company_id=4127310) ---
+2026-08-18 05:40:02 [INFO]   [семейные_ценности] Запрашиваю 2026-08-15 → 2026-08-15 (попытка 1/3)
+2026-08-18 05:40:02 [INFO]   [семейные_ценности] Excel получен (9,471 байт)
+2026-08-18 05:40:02 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-18 05:40:02 [INFO]   Строк: 2
+2026-08-18 05:40:02 [INFO]   [2026-08-15] ✓ Вставлено: 0, пропущено: 2
+2026-08-18 05:40:03 [INFO]   [семейные_ценности] Запрашиваю 2026-08-16 → 2026-08-16 (попытка 1/3)
+2026-08-18 05:40:04 [INFO]   [семейные_ценности] Excel получен (9,409 байт)
+2026-08-18 05:40:04 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-18 05:40:04 [INFO]   Строк: 2
+2026-08-18 05:40:04 [INFO]   [2026-08-16] ✓ Вставлено: 0, пропущено: 2
+2026-08-18 05:40:05 [INFO]   [семейные_ценности] Запрашиваю 2026-08-17 → 2026-08-17 (попытка 1/3)
+2026-08-18 05:40:05 [INFO]   [семейные_ценности] Excel получен (9,470 байт)
+2026-08-18 05:40:05 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-18 05:40:05 [INFO]   Строк: 2
+2026-08-18 05:40:05 [INFO]   [2026-08-17] ✓ Вставлено: 1, пропущено: 1
+2026-08-18 05:40:06 [INFO]   [семейные_ценности] Запрашиваю 2026-08-18 → 2026-08-18 (попытка 1/3)
+2026-08-18 05:40:06 [INFO]   [семейные_ценности] Excel получен (9,135 байт)
+2026-08-18 05:40:06 [WARNING]   Excel пустой
+2026-08-18 05:40:08 [INFO] 
+--- платформа_продаж (company_id=4394450) ---
+2026-08-18 05:40:08 [INFO]   [платформа_продаж] Запрашиваю 2026-08-15 → 2026-08-15 (попытка 1/3)
+2026-08-18 05:40:08 [INFO]   [платформа_продаж] Excel получен (12,122 байт)
+2026-08-18 05:40:08 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-18 05:40:08 [INFO]   Строк: 14
+2026-08-18 05:40:08 [INFO]   [2026-08-15] ✓ Вставлено: 0, пропущено: 14
+2026-08-18 05:40:09 [INFO]   [платформа_продаж] Запрашиваю 2026-08-16 → 2026-08-16 (попытка 1/3)
+2026-08-18 05:40:09 [INFO]   [платформа_продаж] Excel получен (12,068 байт)
+2026-08-18 05:40:09 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-18 05:40:09 [INFO]   Строк: 14
+2026-08-18 05:40:09 [INFO]   [2026-08-16] ✓ Вставлено: 0, пропущено: 14
+2026-08-18 05:40:10 [INFO]   [платформа_продаж] Запрашиваю 2026-08-17 → 2026-08-17 (попытка 1/3)
+2026-08-18 05:40:11 [INFO]   [платформа_продаж] Excel получен (12,188 байт)
+2026-08-18 05:40:11 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-18 05:40:11 [INFO]   Строк: 14
+2026-08-18 05:40:11 [INFO]   [2026-08-17] ✓ Вставлено: 14, пропущено: 0
+2026-08-18 05:40:12 [INFO]   [платформа_продаж] Запрашиваю 2026-08-18 → 2026-08-18 (попытка 1/3)
+2026-08-18 05:40:12 [INFO]   [платформа_продаж] Excel получен (11,369 байт)
+2026-08-18 05:40:12 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-18 05:40:12 [INFO]   Строк: 14
+2026-08-18 05:40:12 [INFO]   [2026-08-18] ✓ Вставлено: 14, пропущено: 0
+2026-08-18 05:40:15 [INFO] 
+--- безикейность (company_id=4112310) ---
+2026-08-18 05:40:15 [INFO]   [безикейность] Запрашиваю 2026-08-15 → 2026-08-15 (попытка 1/3)
+2026-08-18 05:40:15 [INFO]   [безикейность] Excel получен (9,644 байт)
+2026-08-18 05:40:15 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-18 05:40:15 [INFO]   Строк: 3
+2026-08-18 05:40:15 [INFO]   [2026-08-15] ✓ Вставлено: 0, пропущено: 3
+2026-08-18 05:40:16 [INFO]   [безикейность] Запрашиваю 2026-08-16 → 2026-08-16 (попытка 1/3)
+2026-08-18 05:40:16 [INFO]   [безикейность] Excel получен (9,614 байт)
+2026-08-18 05:40:16 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-18 05:40:16 [INFO]   Строк: 3
+2026-08-18 05:40:16 [ERROR]   [2026-08-16] Ошибка вставки: invalid input syntax for type numeric: "-"
+LINE 1: ...ные товары',NULL,23985780,1482.8,13.3,11121,3,0,0,'-',NULL,N...
+                                                             ^
+
+2026-08-18 05:40:17 [INFO]   [безикейность] Запрашиваю 2026-08-17 → 2026-08-17 (попытка 1/3)
+2026-08-18 05:40:17 [INFO]   [безикейность] Excel получен (9,584 байт)
+2026-08-18 05:40:17 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-18 05:40:17 [INFO]   Строк: 3
+2026-08-18 05:40:17 [ERROR]   [2026-08-17] Ошибка вставки: invalid input syntax for type numeric: "-"
+LINE 1: ...ыбранные товары',NULL,23985780,370.7,NULL,0,0,0,0,'-',NULL,N...
+                                                             ^
+
+2026-08-18 05:40:18 [INFO]   [безикейность] Запрашиваю 2026-08-18 → 2026-08-18 (попытка 1/3)
+2026-08-18 05:40:18 [INFO]   [безикейность] Excel получен (9,478 байт)
+2026-08-18 05:40:19 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-18 05:40:19 [INFO]   Строк: 2
+2026-08-18 05:40:19 [ERROR]   [2026-08-18] Ошибка вставки: invalid input syntax for type numeric: "-"
+LINE 1: ...анные товары',NULL,23985780,370.7,10.0,3707,1,0,0,'-','-','-...
+                                                             ^
+
+2026-08-18 05:40:22 [INFO] 
+--- Ечипс Импорт (company_id=487010) ---
+2026-08-18 05:40:22 [INFO]   [Ечипс Импорт] Запрашиваю 2026-08-15 → 2026-08-15 (попытка 1/3)
+2026-08-18 05:40:22 [INFO]   [Ечипс Импорт] Excel получен (9,135 байт)
+2026-08-18 05:40:22 [WARNING]   Excel пустой
+2026-08-18 05:40:22 [INFO]   [Ечипс Импорт] Запрашиваю 2026-08-16 → 2026-08-16 (попытка 1/3)
+2026-08-18 05:40:22 [INFO]   [Ечипс Импорт] Excel получен (9,135 байт)
+2026-08-18 05:40:22 [WARNING]   Excel пустой
+2026-08-18 05:40:22 [INFO]   [Ечипс Импорт] Запрашиваю 2026-08-17 → 2026-08-17 (попытка 1/3)
+2026-08-18 05:40:22 [INFO]   [Ечипс Импорт] Excel получен (9,133 байт)
+2026-08-18 05:40:22 [WARNING]   Excel пустой
+2026-08-18 05:40:22 [INFO]   [Ечипс Импорт] Запрашиваю 2026-08-18 → 2026-08-18 (попытка 1/3)
+2026-08-18 05:40:22 [INFO]   [Ечипс Импорт] Excel получен (9,135 байт)
+2026-08-18 05:40:22 [WARNING]   Excel пустой
+2026-08-18 05:40:24 [INFO] 
+============================================================
+2026-08-18 05:40:24 [INFO] ИТОГО: вставлено 29, пропущено 36
+2026-08-18 05:40:24 [INFO] ============================================================
+2026-08-18 05:40:24 [WARNING] Telegram sendMessage exception: Missing dependencies for SOCKS support.
+2026-08-19 07:02:44 [INFO] ============================================================
+2026-08-19 07:02:44 [INFO] Ozon Advert sync: 2026-08-15 → 2026-08-19
+2026-08-19 07:02:44 [INFO] Кабинетов: 4
+2026-08-19 07:02:44 [INFO] ============================================================
+2026-08-19 07:02:44 [INFO] Загружено cookies: 15 штук
+2026-08-19 07:02:44 [INFO] PostgreSQL: подключение успешно
+2026-08-19 07:02:44 [INFO] Дней для загрузки: 5
+2026-08-19 07:02:44 [INFO] 
+--- семейные_ценности (company_id=4127310) ---
+2026-08-19 07:02:44 [INFO]   [семейные_ценности] Запрашиваю 2026-08-15 → 2026-08-15 (попытка 1/3)
+2026-08-19 07:02:45 [INFO]   [семейные_ценности] Excel получен (9,471 байт)
+2026-08-19 07:02:45 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-19 07:02:45 [INFO]   Строк: 2
+2026-08-19 07:02:45 [INFO]   [2026-08-15] ✓ Вставлено: 0, пропущено: 2
+2026-08-19 07:02:46 [INFO]   [семейные_ценности] Запрашиваю 2026-08-16 → 2026-08-16 (попытка 1/3)
+2026-08-19 07:02:46 [INFO]   [семейные_ценности] Excel получен (9,409 байт)
+2026-08-19 07:02:46 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-19 07:02:46 [INFO]   Строк: 2
+2026-08-19 07:02:46 [INFO]   [2026-08-16] ✓ Вставлено: 0, пропущено: 2
+2026-08-19 07:02:47 [INFO]   [семейные_ценности] Запрашиваю 2026-08-17 → 2026-08-17 (попытка 1/3)
+2026-08-19 07:02:47 [INFO]   [семейные_ценности] Excel получен (9,470 байт)
+2026-08-19 07:02:47 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-19 07:02:47 [INFO]   Строк: 2
+2026-08-19 07:02:47 [INFO]   [2026-08-17] ✓ Вставлено: 0, пропущено: 2
+2026-08-19 07:02:48 [INFO]   [семейные_ценности] Запрашиваю 2026-08-18 → 2026-08-18 (попытка 1/3)
+2026-08-19 07:02:48 [INFO]   [семейные_ценности] Excel получен (9,135 байт)
+2026-08-19 07:02:48 [WARNING]   Excel пустой
+2026-08-19 07:02:48 [INFO]   [семейные_ценности] Запрашиваю 2026-08-19 → 2026-08-19 (попытка 1/3)
+2026-08-19 07:02:49 [INFO]   [семейные_ценности] Excel получен (9,133 байт)
+2026-08-19 07:02:49 [WARNING]   Excel пустой
+2026-08-19 07:02:51 [INFO] 
+--- платформа_продаж (company_id=4394450) ---
+2026-08-19 07:02:51 [INFO]   [платформа_продаж] Запрашиваю 2026-08-15 → 2026-08-15 (попытка 1/3)
+2026-08-19 07:02:51 [INFO]   [платформа_продаж] Excel получен (12,122 байт)
+2026-08-19 07:02:51 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-19 07:02:51 [INFO]   Строк: 14
+2026-08-19 07:02:51 [INFO]   [2026-08-15] ✓ Вставлено: 0, пропущено: 14
+2026-08-19 07:02:52 [INFO]   [платформа_продаж] Запрашиваю 2026-08-16 → 2026-08-16 (попытка 1/3)
+2026-08-19 07:02:52 [INFO]   [платформа_продаж] Excel получен (12,068 байт)
+2026-08-19 07:02:52 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-19 07:02:52 [INFO]   Строк: 14
+2026-08-19 07:02:52 [INFO]   [2026-08-16] ✓ Вставлено: 0, пропущено: 14
+2026-08-19 07:02:53 [INFO]   [платформа_продаж] Запрашиваю 2026-08-17 → 2026-08-17 (попытка 1/3)
+2026-08-19 07:02:53 [INFO]   [платформа_продаж] Excel получен (12,188 байт)
+2026-08-19 07:02:53 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-19 07:02:53 [INFO]   Строк: 14
+2026-08-19 07:02:53 [INFO]   [2026-08-17] ✓ Вставлено: 0, пропущено: 14
+2026-08-19 07:02:54 [INFO]   [платформа_продаж] Запрашиваю 2026-08-18 → 2026-08-18 (попытка 1/3)
+2026-08-19 07:02:54 [INFO]   [платформа_продаж] Excel получен (11,971 байт)
+2026-08-19 07:02:54 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-19 07:02:54 [INFO]   Строк: 15
+2026-08-19 07:02:54 [INFO]   [2026-08-18] ✓ Вставлено: 15, пропущено: 0
+2026-08-19 07:02:55 [INFO]   [платформа_продаж] Запрашиваю 2026-08-19 → 2026-08-19 (попытка 1/3)
+2026-08-19 07:02:55 [INFO]   [платформа_продаж] Excel получен (11,503 байт)
+2026-08-19 07:02:55 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-19 07:02:55 [INFO]   Строк: 15
+2026-08-19 07:02:56 [INFO]   [2026-08-19] ✓ Вставлено: 15, пропущено: 0
+2026-08-19 07:02:59 [INFO] 
+--- безикейность (company_id=4112310) ---
+2026-08-19 07:02:59 [INFO]   [безикейность] Запрашиваю 2026-08-15 → 2026-08-15 (попытка 1/3)
+2026-08-19 07:02:59 [INFO]   [безикейность] Excel получен (9,644 байт)
+2026-08-19 07:02:59 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-19 07:02:59 [INFO]   Строк: 3
+2026-08-19 07:02:59 [INFO]   [2026-08-15] ✓ Вставлено: 0, пропущено: 3
+2026-08-19 07:03:00 [INFO]   [безикейность] Запрашиваю 2026-08-16 → 2026-08-16 (попытка 1/3)
+2026-08-19 07:03:00 [INFO]   [безикейность] Excel получен (9,615 байт)
+2026-08-19 07:03:00 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-19 07:03:00 [INFO]   Строк: 3
+2026-08-19 07:03:00 [ERROR]   [2026-08-16] Ошибка вставки: invalid input syntax for type numeric: "-"
+LINE 1: ...ные товары',NULL,23985780,1482.8,13.3,11121,3,0,0,'-',NULL,N...
+                                                             ^
+
+2026-08-19 07:03:01 [INFO]   [безикейность] Запрашиваю 2026-08-17 → 2026-08-17 (попытка 1/3)
+2026-08-19 07:03:01 [INFO]   [безикейность] Excel получен (9,584 байт)
+2026-08-19 07:03:01 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-19 07:03:01 [INFO]   Строк: 3
+2026-08-19 07:03:01 [ERROR]   [2026-08-17] Ошибка вставки: invalid input syntax for type numeric: "-"
+LINE 1: ...ыбранные товары',NULL,23985780,370.7,NULL,0,0,0,0,'-',NULL,N...
+                                                             ^
+
+2026-08-19 07:03:02 [INFO]   [безикейность] Запрашиваю 2026-08-18 → 2026-08-18 (попытка 1/3)
+2026-08-19 07:03:02 [INFO]   [безикейность] Excel получен (10,002 байт)
+2026-08-19 07:03:02 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-19 07:03:02 [INFO]   Строк: 5
+2026-08-19 07:03:02 [INFO]   [2026-08-18] ✓ Вставлено: 4, пропущено: 1
+2026-08-19 07:03:03 [INFO]   [безикейность] Запрашиваю 2026-08-19 → 2026-08-19 (попытка 1/3)
+2026-08-19 07:03:03 [INFO]   [безикейность] Excel получен (9,700 байт)
+2026-08-19 07:03:03 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-19 07:03:03 [INFO]   Строк: 3
+2026-08-19 07:03:03 [INFO]   [2026-08-19] ✓ Вставлено: 2, пропущено: 1
+2026-08-19 07:03:06 [INFO] 
+--- Ечипс Импорт (company_id=487010) ---
+2026-08-19 07:03:06 [INFO]   [Ечипс Импорт] Запрашиваю 2026-08-15 → 2026-08-15 (попытка 1/3)
+2026-08-19 07:03:07 [INFO]   [Ечипс Импорт] Excel получен (9,135 байт)
+2026-08-19 07:03:07 [WARNING]   Excel пустой
+2026-08-19 07:03:07 [INFO]   [Ечипс Импорт] Запрашиваю 2026-08-16 → 2026-08-16 (попытка 1/3)
+2026-08-19 07:03:07 [INFO]   [Ечипс Импорт] Excel получен (9,135 байт)
+2026-08-19 07:03:07 [WARNING]   Excel пустой
+2026-08-19 07:03:07 [INFO]   [Ечипс Импорт] Запрашиваю 2026-08-17 → 2026-08-17 (попытка 1/3)
+2026-08-19 07:03:07 [INFO]   [Ечипс Импорт] Excel получен (9,132 байт)
+2026-08-19 07:03:07 [WARNING]   Excel пустой
+2026-08-19 07:03:07 [INFO]   [Ечипс Импорт] Запрашиваю 2026-08-18 → 2026-08-18 (попытка 1/3)
+2026-08-19 07:03:07 [INFO]   [Ечипс Импорт] Excel получен (9,135 байт)
+2026-08-19 07:03:07 [WARNING]   Excel пустой
+2026-08-19 07:03:07 [INFO]   [Ечипс Импорт] Запрашиваю 2026-08-19 → 2026-08-19 (попытка 1/3)
+2026-08-19 07:03:07 [INFO]   [Ечипс Импорт] Excel получен (9,133 байт)
+2026-08-19 07:03:07 [WARNING]   Excel пустой
+2026-08-19 07:03:09 [INFO] 
+============================================================
+2026-08-19 07:03:09 [INFO] ИТОГО: вставлено 36, пропущено 53
+2026-08-19 07:03:09 [INFO] ============================================================
+2026-08-19 07:03:09 [WARNING] Telegram sendMessage exception: Missing dependencies for SOCKS support.
+2026-08-20 04:14:42 [INFO] ============================================================
+2026-08-20 04:14:42 [INFO] Ozon Advert sync: 2026-08-15 → 2026-08-20
+2026-08-20 04:14:42 [INFO] Кабинетов: 4
+2026-08-20 04:14:42 [INFO] ============================================================
+2026-08-20 04:14:42 [INFO] Загружено cookies: 15 штук
+2026-08-20 04:14:42 [INFO] PostgreSQL: подключение успешно
+2026-08-20 04:14:42 [INFO] Дней для загрузки: 6
+2026-08-20 04:14:42 [INFO] 
+--- семейные_ценности (company_id=4127310) ---
+2026-08-20 04:14:42 [INFO]   [семейные_ценности] Запрашиваю 2026-08-15 → 2026-08-15 (попытка 1/3)
+2026-08-20 04:14:43 [INFO]   [семейные_ценности] Excel получен (9,471 байт)
+2026-08-20 04:14:43 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-20 04:14:43 [INFO]   Строк: 2
+2026-08-20 04:14:43 [INFO]   [2026-08-15] ✓ Вставлено: 0, пропущено: 2
+2026-08-20 04:14:44 [INFO]   [семейные_ценности] Запрашиваю 2026-08-16 → 2026-08-16 (попытка 1/3)
+2026-08-20 04:14:45 [INFO]   [семейные_ценности] Excel получен (9,409 байт)
+2026-08-20 04:14:45 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-20 04:14:45 [INFO]   Строк: 2
+2026-08-20 04:14:45 [INFO]   [2026-08-16] ✓ Вставлено: 0, пропущено: 2
+2026-08-20 04:14:46 [INFO]   [семейные_ценности] Запрашиваю 2026-08-17 → 2026-08-17 (попытка 1/3)
+2026-08-20 04:14:46 [INFO]   [семейные_ценности] Excel получен (9,470 байт)
+2026-08-20 04:14:46 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-20 04:14:46 [INFO]   Строк: 2
+2026-08-20 04:14:46 [INFO]   [2026-08-17] ✓ Вставлено: 0, пропущено: 2
+2026-08-20 04:14:47 [INFO]   [семейные_ценности] Запрашиваю 2026-08-18 → 2026-08-18 (попытка 1/3)
+2026-08-20 04:14:47 [INFO]   [семейные_ценности] Excel получен (9,135 байт)
+2026-08-20 04:14:47 [WARNING]   Excel пустой
+2026-08-20 04:14:47 [INFO]   [семейные_ценности] Запрашиваю 2026-08-19 → 2026-08-19 (попытка 1/3)
+2026-08-20 04:14:48 [INFO]   [семейные_ценности] Excel получен (9,306 байт)
+2026-08-20 04:14:48 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-20 04:14:48 [INFO]   Строк: 1
+2026-08-20 04:14:48 [INFO]   [2026-08-19] ✓ Вставлено: 0, пропущено: 1
+2026-08-20 04:14:49 [INFO]   [семейные_ценности] Запрашиваю 2026-08-20 → 2026-08-20 (попытка 1/3)
+2026-08-20 04:14:49 [INFO]   [семейные_ценности] Excel получен (9,136 байт)
+2026-08-20 04:14:49 [WARNING]   Excel пустой
+2026-08-20 04:14:51 [INFO] 
+--- платформа_продаж (company_id=4394450) ---
+2026-08-20 04:14:51 [INFO]   [платформа_продаж] Запрашиваю 2026-08-15 → 2026-08-15 (попытка 1/3)
+2026-08-20 04:14:51 [INFO]   [платформа_продаж] Excel получен (12,122 байт)
+2026-08-20 04:14:51 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-20 04:14:51 [INFO]   Строк: 14
+2026-08-20 04:14:51 [INFO]   [2026-08-15] ✓ Вставлено: 0, пропущено: 14
+2026-08-20 04:14:52 [INFO]   [платформа_продаж] Запрашиваю 2026-08-16 → 2026-08-16 (попытка 1/3)
+2026-08-20 04:14:52 [INFO]   [платформа_продаж] Excel получен (12,068 байт)
+2026-08-20 04:14:52 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-20 04:14:52 [INFO]   Строк: 14
+2026-08-20 04:14:52 [INFO]   [2026-08-16] ✓ Вставлено: 0, пропущено: 14
+2026-08-20 04:14:53 [INFO]   [платформа_продаж] Запрашиваю 2026-08-17 → 2026-08-17 (попытка 1/3)
+2026-08-20 04:14:53 [INFO]   [платформа_продаж] Excel получен (12,188 байт)
+2026-08-20 04:14:53 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-20 04:14:53 [INFO]   Строк: 14
+2026-08-20 04:14:53 [INFO]   [2026-08-17] ✓ Вставлено: 0, пропущено: 14
+2026-08-20 04:14:54 [INFO]   [платформа_продаж] Запрашиваю 2026-08-18 → 2026-08-18 (попытка 1/3)
+2026-08-20 04:14:54 [INFO]   [платформа_продаж] Excel получен (11,971 байт)
+2026-08-20 04:14:54 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-20 04:14:54 [INFO]   Строк: 15
+2026-08-20 04:14:54 [INFO]   [2026-08-18] ✓ Вставлено: 0, пропущено: 15
+2026-08-20 04:14:55 [INFO]   [платформа_продаж] Запрашиваю 2026-08-19 → 2026-08-19 (попытка 1/3)
+2026-08-20 04:14:56 [INFO]   [платформа_продаж] Excel получен (12,141 байт)
+2026-08-20 04:14:56 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-20 04:14:56 [INFO]   Строк: 16
+2026-08-20 04:14:56 [INFO]   [2026-08-19] ✓ Вставлено: 14, пропущено: 2
+2026-08-20 04:14:57 [INFO]   [платформа_продаж] Запрашиваю 2026-08-20 → 2026-08-20 (попытка 1/3)
+2026-08-20 04:14:57 [INFO]   [платформа_продаж] Excel получен (11,339 байт)
+2026-08-20 04:14:57 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-20 04:14:57 [INFO]   Строк: 14
+2026-08-20 04:14:57 [INFO]   [2026-08-20] ✓ Вставлено: 14, пропущено: 0
+2026-08-20 04:15:00 [INFO] 
+--- безикейность (company_id=4112310) ---
+2026-08-20 04:15:00 [INFO]   [безикейность] Запрашиваю 2026-08-15 → 2026-08-15 (попытка 1/3)
+2026-08-20 04:15:00 [INFO]   [безикейность] Excel получен (9,644 байт)
+2026-08-20 04:15:00 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-20 04:15:00 [INFO]   Строк: 3
+2026-08-20 04:15:00 [INFO]   [2026-08-15] ✓ Вставлено: 0, пропущено: 3
+2026-08-20 04:15:01 [INFO]   [безикейность] Запрашиваю 2026-08-16 → 2026-08-16 (попытка 1/3)
+2026-08-20 04:15:01 [INFO]   [безикейность] Excel получен (9,614 байт)
+2026-08-20 04:15:01 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-20 04:15:01 [INFO]   Строк: 3
+2026-08-20 04:15:01 [ERROR]   [2026-08-16] Ошибка вставки: invalid input syntax for type numeric: "-"
+LINE 1: ...ные товары',NULL,23985780,1482.8,13.3,11121,3,0,0,'-',NULL,N...
+                                                             ^
+
+2026-08-20 04:15:02 [INFO]   [безикейность] Запрашиваю 2026-08-17 → 2026-08-17 (попытка 1/3)
+2026-08-20 04:15:02 [INFO]   [безикейность] Excel получен (9,584 байт)
+2026-08-20 04:15:02 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-20 04:15:02 [INFO]   Строк: 3
+2026-08-20 04:15:02 [ERROR]   [2026-08-17] Ошибка вставки: invalid input syntax for type numeric: "-"
+LINE 1: ...ыбранные товары',NULL,23985780,370.7,NULL,0,0,0,0,'-',NULL,N...
+                                                             ^
+
+2026-08-20 04:15:03 [INFO]   [безикейность] Запрашиваю 2026-08-18 → 2026-08-18 (попытка 1/3)
+2026-08-20 04:15:04 [INFO]   [безикейность] Excel получен (10,002 байт)
+2026-08-20 04:15:04 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-20 04:15:04 [INFO]   Строк: 5
+2026-08-20 04:15:04 [INFO]   [2026-08-18] ✓ Вставлено: 0, пропущено: 5
+2026-08-20 04:15:05 [INFO]   [безикейность] Запрашиваю 2026-08-19 → 2026-08-19 (попытка 1/3)
+2026-08-20 04:15:05 [INFO]   [безикейность] Excel получен (9,726 байт)
+2026-08-20 04:15:05 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-20 04:15:05 [INFO]   Строк: 3
+2026-08-20 04:15:05 [INFO]   [2026-08-19] ✓ Вставлено: 3, пропущено: 0
+2026-08-20 04:15:06 [INFO]   [безикейность] Запрашиваю 2026-08-20 → 2026-08-20 (попытка 1/3)
+2026-08-20 04:15:06 [INFO]   [безикейность] Excel получен (9,629 байт)
+2026-08-20 04:15:06 [INFO]   Колонки: client_id, sku, nazvanie_tovara, instrument, mesto_razmescheniya, id_kampanii, raskhod, drr_v_prodvizhenii, prodazhi_v_prodvizhenii, prodano_tovarov_sht, prodazhi_v_prodvizhenii_s_zakazov_modeli, prodano_tovarov_modeli_sht, ctr, pokazy, kliki, dobavleniya_v_korzinu_sht, konversiya_v_korzinu, zatraty_na_zakaz, srednyaya_stoimost_klika, row_hash, loaded_at
+2026-08-20 04:15:06 [INFO]   Строк: 3
+2026-08-20 04:15:06 [INFO]   [2026-08-20] ✓ Вставлено: 1, пропущено: 2
+2026-08-20 04:15:09 [INFO] 
+--- Ечипс Импорт (company_id=487010) ---
+2026-08-20 04:15:09 [INFO]   [Ечипс Импорт] Запрашиваю 2026-08-15 → 2026-08-15 (попытка 1/3)
+2026-08-20 04:15:09 [INFO]   [Ечипс Импорт] Excel получен (9,135 байт)
+2026-08-20 04:15:09 [WARNING]   Excel пустой
+2026-08-20 04:15:09 [INFO]   [Ечипс Импорт] Запрашиваю 2026-08-16 → 2026-08-16 (попытка 1/3)
+2026-08-20 04:15:09 [INFO]   [Ечипс Импорт] Excel получен (9,136 байт)
+2026-08-20 04:15:09 [WARNING]   Excel пустой
+2026-08-20 04:15:09 [INFO]   [Ечипс Импорт] Запрашиваю 2026-08-17 → 2026-08-17 (попытка 1/3)
+2026-08-20 04:15:10 [INFO]   [Ечипс Импорт] Excel получен (9,132 байт)
+2026-08-20 04:15:10 [WARNING]   Excel пустой
+2026-08-20 04:15:10 [INFO]   [Ечипс Импорт] Запрашиваю 2026-08-18 → 2026-08-18 (попытка 1/3)
+2026-08-20 04:15:10 [INFO]   [Ечипс Импорт] Excel получен (9,135 байт)
+2026-08-20 04:15:10 [WARNING]   Excel пустой
+2026-08-20 04:15:10 [INFO]   [Ечипс Импорт] Запрашиваю 2026-08-19 → 2026-08-19 (попытка 1/3)
+2026-08-20 04:15:10 [INFO]   [Ечипс Импорт] Excel получен (9,133 байт)
+2026-08-20 04:15:10 [WARNING]   Excel пустой
+2026-08-20 04:15:10 [INFO]   [Ечипс Импорт] Запрашиваю 2026-08-20 → 2026-08-20 (попытка 1/3)
+2026-08-20 04:15:10 [INFO]   [Ечипс Импорт] Excel получен (9,135 байт)
+2026-08-20 04:15:10 [WARNING]   Excel пустой
+2026-08-20 04:15:12 [INFO] 
+============================================================
+2026-08-20 04:15:12 [INFO] ИТОГО: вставлено 32, пропущено 76
+2026-08-20 04:15:12 [INFO] ============================================================
+2026-08-20 04:15:12 [WARNING] Telegram sendMessage exception: Missing dependencies for SOCKS support.

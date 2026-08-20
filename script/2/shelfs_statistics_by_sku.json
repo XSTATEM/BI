@@ -1,0 +1,714 @@
+{
+  "rows" : [ {
+    "date" : "2026-08-15",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204987253",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-15",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "103574962438",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095 4 ядра 16/512 ГБ SSD IPS 1920Х1080, Intel UHD Graphics, Windows 11 Home",
+    "toCart" : 2,
+    "ordered" : 1,
+    "orderedAmount" : 36000
+  }, {
+    "date" : "2026-08-15",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204991414",
+    "skuName" : "16\" Игровой ноутбук ECHIPS Rush Intel Core i7 8850H 6 ядер, 16/512 ГБ, IPS 1920Х1200, NVIDIA GeForce GTX1050, Win11 Home",
+    "toCart" : 3,
+    "ordered" : 1,
+    "orderedAmount" : 55660
+  }, {
+    "date" : "2026-08-15",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204998706",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay AMD Ryzen 3 3200U, 2 ядра, 8/256 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3, Windows 11 Home",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-15",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204998707",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Ryzen 3 3200U, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3 с ОС Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-15",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204987253",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 4,
+    "ordered" : 1,
+    "orderedAmount" : 34000
+  }, {
+    "date" : "2026-08-15",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5772576022",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/256 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-15",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "103575066573",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095, 4 ядра, 8/256 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Windows 11",
+    "toCart" : 2,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-15",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "103574962438",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095 4 ядра 16/512 ГБ SSD IPS 1920Х1080, Intel UHD Graphics, Windows 11 Home",
+    "toCart" : 1,
+    "ordered" : 1,
+    "orderedAmount" : 36000
+  }, {
+    "date" : "2026-08-15",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204998706",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay AMD Ryzen 3 3200U, 2 ядра, 8/256 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3, Windows 11 Home",
+    "toCart" : 3,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-16",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204998707",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Ryzen 3 3200U, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3 с ОС Windows 11 Home",
+    "toCart" : 2,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-16",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "103574962438",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095 4 ядра 16/512 ГБ SSD IPS 1920Х1080, Intel UHD Graphics, Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-16",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204991414",
+    "skuName" : "16\" Игровой ноутбук ECHIPS Rush Intel Core i7 8850H 6 ядер, 16/512 ГБ, IPS 1920Х1200, NVIDIA GeForce GTX1050, Win11 Home",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-16",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204998706",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay AMD Ryzen 3 3200U, 2 ядра, 8/256 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3, Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-16",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204998707",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Ryzen 3 3200U, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3 с ОС Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-16",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204987253",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 3,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-16",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5772576022",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/256 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-16",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "103575066573",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095, 4 ядра, 8/256 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Windows 11",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-16",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "103574962438",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095 4 ядра 16/512 ГБ SSD IPS 1920Х1080, Intel UHD Graphics, Windows 11 Home",
+    "toCart" : 2,
+    "ordered" : 1,
+    "orderedAmount" : 36000
+  }, {
+    "date" : "2026-08-16",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204991414",
+    "skuName" : "16\" Игровой ноутбук ECHIPS Rush Intel Core i7 8850H 6 ядер, 16/512 ГБ, IPS 1920Х1200, NVIDIA GeForce GTX1050, Win11 Home",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-16",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204998706",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay AMD Ryzen 3 3200U, 2 ядра, 8/256 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3, Windows 11 Home",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-17",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204998707",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Ryzen 3 3200U, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3 с ОС Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-17",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204987253",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-17",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5772576022",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/256 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-17",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "103575066573",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095, 4 ядра, 8/256 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Windows 11",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-17",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "103574962438",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095 4 ядра 16/512 ГБ SSD IPS 1920Х1080, Intel UHD Graphics, Windows 11 Home",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-17",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204991414",
+    "skuName" : "16\" Игровой ноутбук ECHIPS Rush Intel Core i7 8850H 6 ядер, 16/512 ГБ, IPS 1920Х1200, NVIDIA GeForce GTX1050, Win11 Home",
+    "toCart" : 2,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-17",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204998707",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Ryzen 3 3200U, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3 с ОС Windows 11 Home",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-17",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204987253",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 4,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-17",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5772576022",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/256 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-17",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "103575066573",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095, 4 ядра, 8/256 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Windows 11",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-17",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "103574962438",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095 4 ядра 16/512 ГБ SSD IPS 1920Х1080, Intel UHD Graphics, Windows 11 Home",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-17",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204998703",
+    "skuName" : "15.6\" Ноутбук ECHIPS Argentum Intel N95, 4 ядра, 12/512 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics с ОС Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-17",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204991414",
+    "skuName" : "16\" Игровой ноутбук ECHIPS Rush Intel Core i7 8850H 6 ядер, 16/512 ГБ, IPS 1920Х1200, NVIDIA GeForce GTX1050, Win11 Home",
+    "toCart" : 2,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-17",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204998706",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay AMD Ryzen 3 3200U, 2 ядра, 8/256 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3, Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-18",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204998707",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Ryzen 3 3200U, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3 с ОС Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-18",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "4681135873",
+    "skuName" : "15.6\" Игровой ноутбук ECHIPS Atlant Ryzen 5 3500U, 4 ядра, 16/512 SSD, IPS 1920Х1080, Radeon RX Vega 8 Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-18",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204987253",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-18",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "103575066573",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095, 4 ядра, 8/256 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Windows 11",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-18",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "103574962438",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095 4 ядра 16/512 ГБ SSD IPS 1920Х1080, Intel UHD Graphics, Windows 11 Home",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-18",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204991414",
+    "skuName" : "16\" Игровой ноутбук ECHIPS Rush Intel Core i7 8850H 6 ядер, 16/512 ГБ, IPS 1920Х1200, NVIDIA GeForce GTX1050, Win11 Home",
+    "toCart" : 2,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-18",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204998706",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay AMD Ryzen 3 3200U, 2 ядра, 8/256 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3, Windows 11 Home",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-18",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204998707",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Ryzen 3 3200U, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3 с ОС Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-18",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204987253",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 2,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-18",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5772576022",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/256 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-18",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "103575066573",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095, 4 ядра, 8/256 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Windows 11",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-18",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "103574962438",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095 4 ядра 16/512 ГБ SSD IPS 1920Х1080, Intel UHD Graphics, Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-18",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204991414",
+    "skuName" : "16\" Игровой ноутбук ECHIPS Rush Intel Core i7 8850H 6 ядер, 16/512 ГБ, IPS 1920Х1200, NVIDIA GeForce GTX1050, Win11 Home",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-18",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204998706",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay AMD Ryzen 3 3200U, 2 ядра, 8/256 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3, Windows 11 Home",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204998707",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Ryzen 3 3200U, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3 с ОС Windows 11 Home",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "4681135873",
+    "skuName" : "15.6\" Игровой ноутбук ECHIPS Atlant Ryzen 5 3500U, 4 ядра, 16/512 SSD, IPS 1920Х1080, Radeon RX Vega 8 Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204987253",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "103575066573",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095, 4 ядра, 8/256 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Windows 11",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "103574962438",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095 4 ядра 16/512 ГБ SSD IPS 1920Х1080, Intel UHD Graphics, Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204998703",
+    "skuName" : "15.6\" Ноутбук ECHIPS Argentum Intel N95, 4 ядра, 12/512 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics с ОС Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204991414",
+    "skuName" : "16\" Игровой ноутбук ECHIPS Rush Intel Core i7 8850H 6 ядер, 16/512 ГБ, IPS 1920Х1200, NVIDIA GeForce GTX1050, Win11 Home",
+    "toCart" : 2,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204998706",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay AMD Ryzen 3 3200U, 2 ядра, 8/256 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3, Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204998707",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Ryzen 3 3200U, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3 с ОС Windows 11 Home",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "4681135873",
+    "skuName" : "15.6\" Игровой ноутбук ECHIPS Atlant Ryzen 5 3500U, 4 ядра, 16/512 SSD, IPS 1920Х1080, Radeon RX Vega 8 Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204987253",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 5,
+    "ordered" : 1,
+    "orderedAmount" : 31500
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5772576022",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/256 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 10,
+    "ordered" : 1,
+    "orderedAmount" : 27000
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "103574962438",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095 4 ядра 16/512 ГБ SSD IPS 1920Х1080, Intel UHD Graphics, Windows 11 Home",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204998703",
+    "skuName" : "15.6\" Ноутбук ECHIPS Argentum Intel N95, 4 ядра, 12/512 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics с ОС Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204991414",
+    "skuName" : "16\" Игровой ноутбук ECHIPS Rush Intel Core i7 8850H 6 ядер, 16/512 ГБ, IPS 1920Х1200, NVIDIA GeForce GTX1050, Win11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204998706",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay AMD Ryzen 3 3200U, 2 ядра, 8/256 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3, Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 8020101,
+    "title" : "ноуты для работы и учебы - поиск",
+    "sku" : "5204998707",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Ryzen 3 3200U, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3 с ОС Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 8020101,
+    "title" : "ноуты для работы и учебы - поиск",
+    "sku" : "5204987253",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 8020101,
+    "title" : "ноуты для работы и учебы - поиск",
+    "sku" : "5772576022",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/256 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 1,
+    "ordered" : 1,
+    "orderedAmount" : 27000
+  }, {
+    "date" : "2026-08-19",
+    "incutId" : 8020101,
+    "title" : "ноуты для работы и учебы - поиск",
+    "sku" : "5204991414",
+    "skuName" : "16\" Игровой ноутбук ECHIPS Rush Intel Core i7 8850H 6 ядер, 16/512 ГБ, IPS 1920Х1200, NVIDIA GeForce GTX1050, Win11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-20",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204998707",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Ryzen 3 3200U, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Radeon RX Vega 3 с ОС Windows 11 Home",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-20",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5772576022",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/256 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-20",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204998703",
+    "skuName" : "15.6\" Ноутбук ECHIPS Argentum Intel N95, 4 ядра, 12/512 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics с ОС Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-20",
+    "incutId" : 7137561,
+    "title" : "Все ноуты - карточка товара конкурентов",
+    "sku" : "5204991414",
+    "skuName" : "16\" Игровой ноутбук ECHIPS Rush Intel Core i7 8850H 6 ядер, 16/512 ГБ, IPS 1920Х1200, NVIDIA GeForce GTX1050, Win11 Home",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-20",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204987253",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 2,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-20",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5772576022",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/256 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-20",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "103574962438",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Celeron N5095 4 ядра 16/512 ГБ SSD IPS 1920Х1080, Intel UHD Graphics, Windows 11 Home",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-20",
+    "incutId" : 7137601,
+    "title" : "Все ноуты - поиск (только товары)",
+    "sku" : "5204991414",
+    "skuName" : "16\" Игровой ноутбук ECHIPS Rush Intel Core i7 8850H 6 ядер, 16/512 ГБ, IPS 1920Х1200, NVIDIA GeForce GTX1050, Win11 Home",
+    "toCart" : 1,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-20",
+    "incutId" : 8020101,
+    "title" : "ноуты для работы и учебы - поиск",
+    "sku" : "5204987253",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/512 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 0,
+    "ordered" : 0,
+    "orderedAmount" : 0
+  }, {
+    "date" : "2026-08-20",
+    "incutId" : 8020101,
+    "title" : "ноуты для работы и учебы - поиск",
+    "sku" : "5772576022",
+    "skuName" : "15.6\" Ноутбук ECHIPS Taganay Intel Pentium GOLD 6500Y, 2 ядра, 16/256 ГБ SSD, IPS 1920Х1080, Intel UHD Graphics, Win 11",
+    "toCart" : 3,
+    "ordered" : 1,
+    "orderedAmount" : 27500
+  } ]
+}

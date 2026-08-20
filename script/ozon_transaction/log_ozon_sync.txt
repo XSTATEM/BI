@@ -1,0 +1,117 @@
+2026-08-18 05:40:35 [INFO] ============================================================
+2026-08-18 05:40:35 [INFO] Ozon sync: 2026-08-15 → 2026-08-18
+2026-08-18 05:40:35 [INFO] Кабинетов: 4
+2026-08-18 05:40:35 [INFO] ============================================================
+2026-08-18 05:40:35 [INFO] Загружено cookies из строки-заголовка: 15 штук
+2026-08-18 05:40:35 [INFO] PostgreSQL: подключение успешно
+2026-08-18 05:40:35 [INFO] 
+--- семейные_ценности (company_id=4127310) ---
+2026-08-18 05:40:35 [INFO]   [семейные_ценности] Скачиваю 2026-08-15 → 2026-08-18 (попытка 1/3)
+2026-08-18 05:40:35 [INFO]   [семейные_ценности] Файл получен (7,966 байт)
+2026-08-18 05:40:35 [INFO]   Колонки (16): id_nachisleniya, data_nachisleniya, gruppa_uslug, tip_nachisleniya, artikul, sku, nazvanie_tovara, kolichestvo, tsena_prodavtsa, data_prinyatiya_zakaza_v_obrabotku_ili_okazaniya_uslugi, platforma_prodazhi, skhema_raboty, voznagrazhdenie_ozon, indeks_lokalizatsii, srednee_vremya_dostavki_chasy, summa_itogo_rub
+2026-08-18 05:40:35 [INFO]   Строк данных: 167
+2026-08-18 05:40:35 [INFO]   ✓ Вставлено: 21, пропущено дублей: 146
+2026-08-18 05:40:36 [INFO] 
+--- платформа_продаж (company_id=4394450) ---
+2026-08-18 05:40:36 [INFO]   [платформа_продаж] Скачиваю 2026-08-15 → 2026-08-18 (попытка 1/3)
+2026-08-18 05:40:38 [INFO]   [платформа_продаж] Файл получен (23,190 байт)
+2026-08-18 05:40:38 [INFO]   Колонки (16): id_nachisleniya, data_nachisleniya, gruppa_uslug, tip_nachisleniya, artikul, sku, nazvanie_tovara, kolichestvo, tsena_prodavtsa, data_prinyatiya_zakaza_v_obrabotku_ili_okazaniya_uslugi, platforma_prodazhi, skhema_raboty, voznagrazhdenie_ozon, indeks_lokalizatsii, srednee_vremya_dostavki_chasy, summa_itogo_rub
+2026-08-18 05:40:38 [INFO]   Строк данных: 608
+2026-08-18 05:40:38 [INFO]   ✓ Вставлено: 8, пропущено дублей: 600
+2026-08-18 05:40:39 [INFO] 
+--- безикейность (company_id=4112310) ---
+2026-08-18 05:40:39 [INFO]   [безикейность] Скачиваю 2026-08-15 → 2026-08-18 (попытка 1/3)
+2026-08-18 05:40:39 [INFO]   [безикейность] Файл получен (7,918 байт)
+2026-08-18 05:40:39 [INFO]   Колонки (16): id_nachisleniya, data_nachisleniya, gruppa_uslug, tip_nachisleniya, artikul, sku, nazvanie_tovara, kolichestvo, tsena_prodavtsa, data_prinyatiya_zakaza_v_obrabotku_ili_okazaniya_uslugi, platforma_prodazhi, skhema_raboty, voznagrazhdenie_ozon, indeks_lokalizatsii, srednee_vremya_dostavki_chasy, summa_itogo_rub
+2026-08-18 05:40:39 [INFO]   Строк данных: 128
+2026-08-18 05:40:39 [INFO]   ✓ Вставлено: 14, пропущено дублей: 114
+2026-08-18 05:40:40 [INFO] 
+--- Ечипс Импорт (company_id=487010) ---
+2026-08-18 05:40:40 [INFO]   [Ечипс Импорт] Скачиваю 2026-08-15 → 2026-08-18 (попытка 1/3)
+2026-08-18 05:40:40 [INFO]   [Ечипс Импорт] Файл получен (5,769 байт)
+2026-08-18 05:40:40 [INFO]   Колонки (16): id_nachisleniya, data_nachisleniya, gruppa_uslug, tip_nachisleniya, artikul, sku, nazvanie_tovara, kolichestvo, tsena_prodavtsa, data_prinyatiya_zakaza_v_obrabotku_ili_okazaniya_uslugi, platforma_prodazhi, skhema_raboty, voznagrazhdenie_ozon, indeks_lokalizatsii, srednee_vremya_dostavki_chasy, summa_itogo_rub
+2026-08-18 05:40:40 [INFO]   Строк данных: 42
+2026-08-18 05:40:40 [INFO]   ✓ Вставлено: 17, пропущено дублей: 25
+2026-08-18 05:40:41 [INFO] 
+============================================================
+2026-08-18 05:40:41 [INFO] ИТОГО: вставлено 60, пропущено 885
+2026-08-18 05:40:41 [INFO] ============================================================
+2026-08-18 05:40:41 [WARNING] Telegram sendMessage exception: Missing dependencies for SOCKS support.
+2026-08-19 07:03:18 [INFO] ============================================================
+2026-08-19 07:03:18 [INFO] Ozon sync: 2026-08-15 → 2026-08-19
+2026-08-19 07:03:18 [INFO] Кабинетов: 4
+2026-08-19 07:03:18 [INFO] ============================================================
+2026-08-19 07:03:18 [INFO] Загружено cookies из строки-заголовка: 15 штук
+2026-08-19 07:03:18 [INFO] PostgreSQL: подключение успешно
+2026-08-19 07:03:18 [INFO] 
+--- семейные_ценности (company_id=4127310) ---
+2026-08-19 07:03:18 [INFO]   [семейные_ценности] Скачиваю 2026-08-15 → 2026-08-19 (попытка 1/3)
+2026-08-19 07:03:18 [INFO]   [семейные_ценности] Файл получен (8,802 байт)
+2026-08-19 07:03:19 [INFO]   Колонки (16): id_nachisleniya, data_nachisleniya, gruppa_uslug, tip_nachisleniya, artikul, sku, nazvanie_tovara, kolichestvo, tsena_prodavtsa, data_prinyatiya_zakaza_v_obrabotku_ili_okazaniya_uslugi, platforma_prodazhi, skhema_raboty, voznagrazhdenie_ozon, indeks_lokalizatsii, srednee_vremya_dostavki_chasy, summa_itogo_rub
+2026-08-19 07:03:19 [INFO]   Строк данных: 198
+2026-08-19 07:03:19 [INFO]   ✓ Вставлено: 31, пропущено дублей: 167
+2026-08-19 07:03:20 [INFO] 
+--- платформа_продаж (company_id=4394450) ---
+2026-08-19 07:03:20 [INFO]   [платформа_продаж] Скачиваю 2026-08-15 → 2026-08-19 (попытка 1/3)
+2026-08-19 07:03:20 [INFO]   [платформа_продаж] Файл получен (30,839 байт)
+2026-08-19 07:03:20 [INFO]   Колонки (16): id_nachisleniya, data_nachisleniya, gruppa_uslug, tip_nachisleniya, artikul, sku, nazvanie_tovara, kolichestvo, tsena_prodavtsa, data_prinyatiya_zakaza_v_obrabotku_ili_okazaniya_uslugi, platforma_prodazhi, skhema_raboty, voznagrazhdenie_ozon, indeks_lokalizatsii, srednee_vremya_dostavki_chasy, summa_itogo_rub
+2026-08-19 07:03:20 [INFO]   Строк данных: 862
+2026-08-19 07:03:20 [INFO]   ✓ Вставлено: 62, пропущено дублей: 800
+2026-08-19 07:03:21 [INFO] 
+--- безикейность (company_id=4112310) ---
+2026-08-19 07:03:21 [INFO]   [безикейность] Скачиваю 2026-08-15 → 2026-08-19 (попытка 1/3)
+2026-08-19 07:03:22 [INFO]   [безикейность] Файл получен (9,498 байт)
+2026-08-19 07:03:22 [INFO]   Колонки (16): id_nachisleniya, data_nachisleniya, gruppa_uslug, tip_nachisleniya, artikul, sku, nazvanie_tovara, kolichestvo, tsena_prodavtsa, data_prinyatiya_zakaza_v_obrabotku_ili_okazaniya_uslugi, platforma_prodazhi, skhema_raboty, voznagrazhdenie_ozon, indeks_lokalizatsii, srednee_vremya_dostavki_chasy, summa_itogo_rub
+2026-08-19 07:03:22 [INFO]   Строк данных: 181
+2026-08-19 07:03:22 [INFO]   ✓ Вставлено: 53, пропущено дублей: 128
+2026-08-19 07:03:23 [INFO] 
+--- Ечипс Импорт (company_id=487010) ---
+2026-08-19 07:03:23 [INFO]   [Ечипс Импорт] Скачиваю 2026-08-15 → 2026-08-19 (попытка 1/3)
+2026-08-19 07:03:23 [INFO]   [Ечипс Импорт] Файл получен (5,981 байт)
+2026-08-19 07:03:23 [INFO]   Колонки (16): id_nachisleniya, data_nachisleniya, gruppa_uslug, tip_nachisleniya, artikul, sku, nazvanie_tovara, kolichestvo, tsena_prodavtsa, data_prinyatiya_zakaza_v_obrabotku_ili_okazaniya_uslugi, platforma_prodazhi, skhema_raboty, voznagrazhdenie_ozon, indeks_lokalizatsii, srednee_vremya_dostavki_chasy, summa_itogo_rub
+2026-08-19 07:03:23 [INFO]   Строк данных: 46
+2026-08-19 07:03:23 [INFO]   ✓ Вставлено: 4, пропущено дублей: 42
+2026-08-19 07:03:24 [INFO] 
+============================================================
+2026-08-19 07:03:24 [INFO] ИТОГО: вставлено 150, пропущено 1137
+2026-08-19 07:03:24 [INFO] ============================================================
+2026-08-19 07:03:24 [WARNING] Telegram sendMessage exception: Missing dependencies for SOCKS support.
+2026-08-20 04:14:14 [INFO] ============================================================
+2026-08-20 04:14:14 [INFO] Ozon sync: 2026-08-15 → 2026-08-20
+2026-08-20 04:14:14 [INFO] Кабинетов: 4
+2026-08-20 04:14:14 [INFO] ============================================================
+2026-08-20 04:14:14 [INFO] Загружено cookies из строки-заголовка: 15 штук
+2026-08-20 04:14:14 [INFO] PostgreSQL: подключение успешно
+2026-08-20 04:14:14 [INFO] 
+--- семейные_ценности (company_id=4127310) ---
+2026-08-20 04:14:14 [INFO]   [семейные_ценности] Скачиваю 2026-08-15 → 2026-08-20 (попытка 1/3)
+2026-08-20 04:14:15 [INFO]   [семейные_ценности] Файл получен (9,482 байт)
+2026-08-20 04:14:15 [INFO]   Колонки (16): id_nachisleniya, data_nachisleniya, gruppa_uslug, tip_nachisleniya, artikul, sku, nazvanie_tovara, kolichestvo, tsena_prodavtsa, data_prinyatiya_zakaza_v_obrabotku_ili_okazaniya_uslugi, platforma_prodazhi, skhema_raboty, voznagrazhdenie_ozon, indeks_lokalizatsii, srednee_vremya_dostavki_chasy, summa_itogo_rub
+2026-08-20 04:14:15 [INFO]   Строк данных: 220
+2026-08-20 04:14:15 [INFO]   ✓ Вставлено: 20, пропущено дублей: 200
+2026-08-20 04:14:16 [INFO] 
+--- платформа_продаж (company_id=4394450) ---
+2026-08-20 04:14:16 [INFO]   [платформа_продаж] Скачиваю 2026-08-15 → 2026-08-20 (попытка 1/3)
+2026-08-20 04:14:16 [INFO]   [платформа_продаж] Файл получен (35,961 байт)
+2026-08-20 04:14:16 [INFO]   Колонки (16): id_nachisleniya, data_nachisleniya, gruppa_uslug, tip_nachisleniya, artikul, sku, nazvanie_tovara, kolichestvo, tsena_prodavtsa, data_prinyatiya_zakaza_v_obrabotku_ili_okazaniya_uslugi, platforma_prodazhi, skhema_raboty, voznagrazhdenie_ozon, indeks_lokalizatsii, srednee_vremya_dostavki_chasy, summa_itogo_rub
+2026-08-20 04:14:16 [INFO]   Строк данных: 1044
+2026-08-20 04:14:17 [INFO]   ✓ Вставлено: 44, пропущено дублей: 1000
+2026-08-20 04:14:18 [INFO] 
+--- безикейность (company_id=4112310) ---
+2026-08-20 04:14:18 [INFO]   [безикейность] Скачиваю 2026-08-15 → 2026-08-20 (попытка 1/3)
+2026-08-20 04:14:18 [INFO]   [безикейность] Файл получен (9,867 байт)
+2026-08-20 04:14:18 [INFO]   Колонки (16): id_nachisleniya, data_nachisleniya, gruppa_uslug, tip_nachisleniya, artikul, sku, nazvanie_tovara, kolichestvo, tsena_prodavtsa, data_prinyatiya_zakaza_v_obrabotku_ili_okazaniya_uslugi, platforma_prodazhi, skhema_raboty, voznagrazhdenie_ozon, indeks_lokalizatsii, srednee_vremya_dostavki_chasy, summa_itogo_rub
+2026-08-20 04:14:18 [INFO]   Строк данных: 199
+2026-08-20 04:14:18 [INFO]   ✓ Вставлено: 18, пропущено дублей: 181
+2026-08-20 04:14:19 [INFO] 
+--- Ечипс Импорт (company_id=487010) ---
+2026-08-20 04:14:19 [INFO]   [Ечипс Импорт] Скачиваю 2026-08-15 → 2026-08-20 (попытка 1/3)
+2026-08-20 04:14:19 [INFO]   [Ечипс Импорт] Файл получен (6,012 байт)
+2026-08-20 04:14:19 [INFO]   Колонки (16): id_nachisleniya, data_nachisleniya, gruppa_uslug, tip_nachisleniya, artikul, sku, nazvanie_tovara, kolichestvo, tsena_prodavtsa, data_prinyatiya_zakaza_v_obrabotku_ili_okazaniya_uslugi, platforma_prodazhi, skhema_raboty, voznagrazhdenie_ozon, indeks_lokalizatsii, srednee_vremya_dostavki_chasy, summa_itogo_rub
+2026-08-20 04:14:19 [INFO]   Строк данных: 48
+2026-08-20 04:14:19 [INFO]   ✓ Вставлено: 2, пропущено дублей: 46
+2026-08-20 04:14:20 [INFO] 
+============================================================
+2026-08-20 04:14:20 [INFO] ИТОГО: вставлено 84, пропущено 1427
+2026-08-20 04:14:20 [INFO] ============================================================
+2026-08-20 04:14:20 [WARNING] Telegram sendMessage exception: Missing dependencies for SOCKS support.

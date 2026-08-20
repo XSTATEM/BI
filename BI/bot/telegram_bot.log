@@ -1,0 +1,7 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "/home/user/BI/bot/telegram_bot.py", line 77, in <module>
+    from daily_sales_report import (
+  File "/home/user/BI/bot/daily_sales_report.py", line 155, in <module>
+    from pbi_to_postgres import get_postgres_engine
+ModuleNotFoundError: No module named 'pbi_to_postgres'
