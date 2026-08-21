@@ -78,6 +78,68 @@ SELECT
 FROM public.warehouse_stocks;
 
 -- =====================================================================
+-- 4.5. Управленческая себестоимость за единицу товара по SKU.
+--
+-- Источник — public.dim_cost_price (= таблица 'Себестоимость и товары' в
+-- модели Power BI, грузится dax_queries.py/pbi_to_postgres.py). Формула НЕ
+-- придумана заново — воспроизводит уже одобренную пользователем PBI-меру
+-- "Запас на FBO, руб WB/Oz" (таблица '_МЕРЫ WAREHOUSE', папка "Запас FBO"):
+--   • dim_cost_price."Артикул поставщика" сопоставляется с SKU по ЛЮБОМУ из
+--     4 полей dim_sku — SKU_upper (через UPPER(), как в мере), WB Артикул,
+--     Ozon Артикул, Yandex SKU (без учёта регистра для этих трёх — так же,
+--     как в самой мере);
+--   • для каждого совпавшего SKU берётся строка с САМЫМ ПОЗДНИМ "Месяц
+--     себестоимости", её "Сумма себестоимость" — это и есть цена за
+--     единицу. NULLS LAST на сортировке по месяцу — чтобы строки с пустым
+--     месяцем не перебивали реальный последний месяц;
+--   • при равенстве месяца у нескольких строк на один SKU берётся строка с
+--     МАКСИМАЛЬНЫМ значением себестоимости — так же, как MAXX(...) в самой
+--     DAX-мере поступает с "тёзками".
+--
+-- "Сумма себестоимость" в источнике — text (см. комментарий про
+-- разнотипность после pandas.to_sql в начале join_marketplaces.sql),
+-- приводится к numeric через NULLIF(...,'')::numeric. ЕСЛИ CREATE VIEW
+-- упадёт с "invalid input syntax for type numeric" — значит в "Сумма
+-- себестоимость" попал нечисловой текст (пробел, разделитель тысяч и т.п.),
+-- нужно почистить исходный лист в Google Sheets, на котором построена
+-- 'Себестоимость и товары' в модели.
+--
+-- ОТЛИЧИЕ от PBI-меры: там IFERROR(VALUE(...),0) молча превращает ошибку
+-- парсинга в 0. Здесь вместо этого NULL — чтобы "нет данных о себестоимости"
+-- нельзя было спутать с "себестоимость равна нулю", глядя на рублёвую
+-- колонку. На SUM() в Google Sheets разницы нет (NULL и 0 суммируются
+-- одинаково), меняется только то, что видно в самой ячейке.
+--
+-- Отдаёт себестоимость под ДВУМЯ ключами одновременно: "SKU (ключ)" (для
+-- join_marketplaces.sql — там остатки идут по этому ключу) и "SKU_upper"
+-- (для join'ов в этом файле, где остатки идут по nomenclatura.articul).
+CREATE OR REPLACE VIEW public.v_cost_per_sku AS
+WITH cost_matched AS (
+    SELECT
+        s."SKU (ключ)",
+        s."SKU_upper",
+        cp."Месяц себестоимости"                         AS month_ss,
+        NULLIF(cp."Сумма себестоимость", '')::numeric     AS cost_value
+    FROM public.dim_cost_price cp
+    JOIN public.dim_sku s
+        ON cp."Артикул поставщика" IS NOT NULL
+       AND cp."Артикул поставщика" <> ''
+       AND (
+            UPPER(cp."Артикул поставщика") = s."SKU_upper"
+         OR cp."Артикул поставщика" = s."WB Артикул"
+         OR cp."Артикул поставщика" = s."Ozon Артикул"
+         OR cp."Артикул поставщика" = s."Yandex SKU"
+       )
+    WHERE cp."Сумма себестоимость" IS NOT NULL AND cp."Сумма себестоимость" <> ''
+)
+SELECT DISTINCT ON ("SKU (ключ)")
+    "SKU (ключ)",
+    "SKU_upper",
+    cost_value AS "Себестоимость_ед, руб"
+FROM cost_matched
+ORDER BY "SKU (ключ)", month_ss DESC NULLS LAST, cost_value DESC NULLS LAST;
+
+-- =====================================================================
 -- 5. Витрина остатков по датам для выгрузки в Google Sheets (второй лист).
 --
 -- Меры (public.warehouse_stocks / warehouse_stocks_history):
@@ -180,6 +242,15 @@ max_date AS (
     FROM base
     GROUP BY UPPER("SKU"), "Склад"
 )
+-- Рублёвые колонки (FR_Доступно/FR_Зарезервировано/.../FR_В пути, руб —
+-- префикс FR_ по запросу пользователя, как у аналогичных колонок в
+-- join_marketplaces.sql) добавлены В КОНЕЦ, ПОСЛЕ всех "штучных" колонок —
+-- см. раздел 4.5 выше (v_cost_per_sku)
+-- про формулу и источник себестоимости. Присоединяются через CREATE OR
+-- REPLACE VIEW (допускает только дописывание новых колонок в конец, не
+-- трогая существующие), поэтому потребители этой вьюхи (лист "Остатки FBS",
+-- daily_sales_report.py, telegram_bot.py) не ломаются — просто получают
+-- 6 новых колонок справа.
 SELECT
     b."Дата",
     b."SKU",
@@ -189,11 +260,19 @@ SELECT
     b."Отгружается",
     b."Всего",
     b."Заказано",
-    CASE WHEN b."Дата" = md.max_dt THEN t."В пути" ELSE NULL END AS "В пути"
+    CASE WHEN b."Дата" = md.max_dt THEN t."В пути" ELSE NULL END AS "В пути",
+    (b."Доступно" * cps."Себестоимость_ед, руб")         AS "FR_Доступно, руб",
+    (b."Зарезервировано" * cps."Себестоимость_ед, руб")  AS "FR_Зарезервировано, руб",
+    (b."Отгружается" * cps."Себестоимость_ед, руб")      AS "FR_Отгружается, руб",
+    (b."Всего" * cps."Себестоимость_ед, руб")             AS "FR_Всего, руб",
+    (b."Заказано" * cps."Себестоимость_ед, руб")          AS "FR_Заказано, руб",
+    (CASE WHEN b."Дата" = md.max_dt THEN t."В пути" ELSE NULL END * cps."Себестоимость_ед, руб") AS "FR_В пути, руб"
 FROM base b
 LEFT JOIN max_date md ON md.sku_u = UPPER(b."SKU") AND md.sklad = b."Склад"
 LEFT JOIN public.v_transfer_items_by_sku_warehouse t
-       ON t."SKU" = UPPER(b."SKU") AND t."Склад" = b."Склад";
+       ON t."SKU" = UPPER(b."SKU") AND t."Склад" = b."Склад"
+LEFT JOIN public.v_cost_per_sku cps
+       ON cps."SKU_upper" = UPPER(b."SKU");
 
 -- =====================================================================
 -- 6. Витрины остатков по всем маркетплейсам (v_stocks_all_total,
@@ -225,55 +304,77 @@ LEFT JOIN public.v_transfer_items_by_sku_warehouse t
 -- доступные к продаже прямо сейчас.
 -- =====================================================================
 
+-- "FR_Всего, руб" добавлена В КОНЕЦ (после "Всего") — рублёвая оценка суммарного
+-- остатка, Количество × Себестоимость_ед (см. v_cost_per_sku, раздел 4.5).
 CREATE OR REPLACE VIEW public.v_stocks_all_total AS
+WITH totals AS (
+    SELECT
+        "Дата",
+        "SKU",
+        SUM("Остаток") AS "Всего"
+    FROM (
+        SELECT h."Дата" AS "Дата", UPPER(h."SKU") AS "SKU", SUM(h."Доступно") AS "Остаток"
+        FROM public.v_warehouse_stocks_fbs h
+        WHERE h."SKU" IS NOT NULL
+        GROUP BY h."Дата", UPPER(h."SKU")
+
+        UNION ALL
+
+        SELECT wb."Date"::date AS "Дата", UPPER(wb."SKU (ключ)") AS "SKU", SUM(wb."Остаток FBW, шт") AS "Остаток"
+        FROM public.fact_revenue_wb wb
+        WHERE wb."Остаток FBW, шт" IS NOT NULL AND wb."SKU (ключ)" IS NOT NULL
+        GROUP BY wb."Date", UPPER(wb."SKU (ключ)")
+
+        UNION ALL
+
+        SELECT oz."Date"::date AS "Дата", UPPER(oz."SKU (ключ)") AS "SKU", SUM(oz."Остаток Ozon, шт") AS "Остаток"
+        FROM public.fact_revenue_ozon oz
+        WHERE oz."Остаток Ozon, шт" IS NOT NULL AND oz."SKU (ключ)" IS NOT NULL
+        GROUP BY oz."Date", UPPER(oz."SKU (ключ)")
+
+        UNION ALL
+
+        SELECT ya."Date"::date AS "Дата", UPPER(ya."SKU (ключ)") AS "SKU", SUM(ya."Остаток Yandex, шт") AS "Остаток"
+        FROM public.fact_revenue_yandex ya
+        WHERE ya."Остаток Yandex, шт" IS NOT NULL AND ya."SKU (ключ)" IS NOT NULL
+        GROUP BY ya."Date", UPPER(ya."SKU (ключ)")
+    ) combined
+    GROUP BY "Дата", "SKU"
+)
 SELECT
-    "Дата",
-    "SKU",
-    SUM("Остаток") AS "Всего"
-FROM (
-    SELECT h."Дата" AS "Дата", UPPER(h."SKU") AS "SKU", SUM(h."Доступно") AS "Остаток"
-    FROM public.v_warehouse_stocks_fbs h
-    WHERE h."SKU" IS NOT NULL
-    GROUP BY h."Дата", UPPER(h."SKU")
-
-    UNION ALL
-
-    SELECT wb."Date"::date AS "Дата", UPPER(wb."SKU (ключ)") AS "SKU", SUM(wb."Остаток FBW, шт") AS "Остаток"
-    FROM public.fact_revenue_wb wb
-    WHERE wb."Остаток FBW, шт" IS NOT NULL AND wb."SKU (ключ)" IS NOT NULL
-    GROUP BY wb."Date", UPPER(wb."SKU (ключ)")
-
-    UNION ALL
-
-    SELECT oz."Date"::date AS "Дата", UPPER(oz."SKU (ключ)") AS "SKU", SUM(oz."Остаток Ozon, шт") AS "Остаток"
-    FROM public.fact_revenue_ozon oz
-    WHERE oz."Остаток Ozon, шт" IS NOT NULL AND oz."SKU (ключ)" IS NOT NULL
-    GROUP BY oz."Date", UPPER(oz."SKU (ключ)")
-
-    UNION ALL
-
-    SELECT ya."Date"::date AS "Дата", UPPER(ya."SKU (ключ)") AS "SKU", SUM(ya."Остаток Yandex, шт") AS "Остаток"
-    FROM public.fact_revenue_yandex ya
-    WHERE ya."Остаток Yandex, шт" IS NOT NULL AND ya."SKU (ключ)" IS NOT NULL
-    GROUP BY ya."Date", UPPER(ya."SKU (ключ)")
-) combined
-GROUP BY "Дата", "SKU";
+    t."Дата",
+    t."SKU",
+    t."Всего",
+    (t."Всего" * cps."Себестоимость_ед, руб") AS "FR_Всего, руб"
+FROM totals t
+LEFT JOIN public.v_cost_per_sku cps ON cps."SKU_upper" = t."SKU";
 
 -- "Остатки МП" — то же самое, но БЕЗ FBS и БЕЗ агрегации по маркетплейсам
 -- (одна строка на Дата+SKU+Маркетплейс), только WB/Ozon/Yandex.
+-- "FR_Остаток, руб" добавлена В КОНЕЦ (после "Остаток, шт") — см. v_cost_per_sku,
+-- раздел 4.5.
 CREATE OR REPLACE VIEW public.v_stocks_by_marketplace AS
-SELECT wb."Date"::date AS "Дата", UPPER(wb."SKU (ключ)") AS "SKU", 'WB'::text AS "Маркетплейс", wb."Остаток FBW, шт" AS "Остаток, шт"
-FROM public.fact_revenue_wb wb
-WHERE wb."Остаток FBW, шт" IS NOT NULL AND wb."SKU (ключ)" IS NOT NULL
+SELECT
+    base."Дата",
+    base."SKU",
+    base."Маркетплейс",
+    base."Остаток, шт",
+    (base."Остаток, шт" * cps."Себестоимость_ед, руб") AS "FR_Остаток, руб"
+FROM (
+    SELECT wb."Date"::date AS "Дата", UPPER(wb."SKU (ключ)") AS "SKU", 'WB'::text AS "Маркетплейс", wb."Остаток FBW, шт" AS "Остаток, шт"
+    FROM public.fact_revenue_wb wb
+    WHERE wb."Остаток FBW, шт" IS NOT NULL AND wb."SKU (ключ)" IS NOT NULL
 
-UNION ALL
+    UNION ALL
 
-SELECT oz."Date"::date AS "Дата", UPPER(oz."SKU (ключ)") AS "SKU", 'Ozon'::text AS "Маркетплейс", oz."Остаток Ozon, шт" AS "Остаток, шт"
-FROM public.fact_revenue_ozon oz
-WHERE oz."Остаток Ozon, шт" IS NOT NULL AND oz."SKU (ключ)" IS NOT NULL
+    SELECT oz."Date"::date AS "Дата", UPPER(oz."SKU (ключ)") AS "SKU", 'Ozon'::text AS "Маркетплейс", oz."Остаток Ozon, шт" AS "Остаток, шт"
+    FROM public.fact_revenue_ozon oz
+    WHERE oz."Остаток Ozon, шт" IS NOT NULL AND oz."SKU (ключ)" IS NOT NULL
 
-UNION ALL
+    UNION ALL
 
-SELECT ya."Date"::date AS "Дата", UPPER(ya."SKU (ключ)") AS "SKU", 'Yandex'::text AS "Маркетплейс", ya."Остаток Yandex, шт" AS "Остаток, шт"
-FROM public.fact_revenue_yandex ya
-WHERE ya."Остаток Yandex, шт" IS NOT NULL AND ya."SKU (ключ)" IS NOT NULL;
+    SELECT ya."Date"::date AS "Дата", UPPER(ya."SKU (ключ)") AS "SKU", 'Yandex'::text AS "Маркетплейс", ya."Остаток Yandex, шт" AS "Остаток, шт"
+    FROM public.fact_revenue_yandex ya
+    WHERE ya."Остаток Yandex, шт" IS NOT NULL AND ya."SKU (ключ)" IS NOT NULL
+) base
+LEFT JOIN public.v_cost_per_sku cps ON cps."SKU_upper" = base."SKU";

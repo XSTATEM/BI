@@ -90,6 +90,8 @@ DEPENDENT_VIEWS = [
     "v_stocks_by_marketplace",  # history.SQL, раздел 6 — зависит от fact_revenue_wb/ozon/yandex
     "v_warehouse_stocks_fbs",              # history.SQL, раздел 5 — зависит от transfer_items
     "v_transfer_items_by_sku_warehouse",   # history.SQL, раздел 5 — зависит от transfer_items
+    "v_cost_per_sku",           # history.SQL, раздел 4.5 — зависит от dim_sku И dim_cost_price,
+                                # обе таблицы ниже перезаписываются if_exists="replace"
 ]
 
 WORKSPACE_NAME = "echips.ru"
@@ -104,6 +106,7 @@ TARGET_TABLES = {
     "dim_sku": "dim_sku",
     "dim_calendar": "dim_calendar",
     "dim_plan": "dim_plan",
+    "dim_cost_price": "dim_cost_price",
     "raw_transfer_items": "transfer_items",
     "raw_transit_receivables": "fact_transit_receivables",
     "raw_ozon_other": "fact_ozon_other_deductions",
