@@ -258,7 +258,7 @@ fbo_agg AS (
     GROUP BY "Date", "SKU_upper"
 )
 SELECT
-    "SKU (ключ)",
+    fact_revenue_wb."SKU (ключ)",
     "Date",
     "Направление",
     'WB'::text                              AS "Маркетплейс",
@@ -336,7 +336,7 @@ LEFT JOIN public.v_cost_per_sku cps ON cps."SKU (ключ)" = fact_revenue_wb."S
 UNION ALL
 
 SELECT
-    "SKU (ключ)",
+    fact_revenue_ozon."SKU (ключ)",
     "Date",
     "Направление",
     'Ozon'::text                             AS "Маркетплейс",
@@ -414,7 +414,7 @@ LEFT JOIN public.v_cost_per_sku cps ON cps."SKU (ключ)" = fact_revenue_ozon.
 UNION ALL
 
 SELECT
-    "SKU (ключ)",
+    fact_revenue_yandex."SKU (ключ)",
     "Date",
     "Направление",
     'Yandex'::text                           AS "Маркетплейс",
